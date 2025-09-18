@@ -1,5 +1,5 @@
 body {background: linear-gradient(#ffffff 0%-50%, #007fff 51%-100%); font-family: copperplate;}
-.center {display: block; margin-left: auto; margin-right: auto; width:70vw; height: 60vh; margin-top:-100px; }
+.center {display: block; margin-left: auto; margin-right: auto; width:70%; height: 60%; margin-top:-100px; }
 h1 {font-size: 3rem; margin-left: auto; margin-right: auto; color:#ffa500; text-align: center; border-bottom: 2px dotted #ffae00; padding-bottom: 30px; margin-top: -80px;  }
 h2 {text-align: center; font-size: 2rem; color:#fcdfd7;margin-top: -20px; padding: 20px; } 
 h3 {text-align: center; font-size: 1.7rem; color:#fcdfd7; padding: 5px; margin:20px; margin-top: 30px; padding-bottom:30px; margin-bottom: 50px; }
