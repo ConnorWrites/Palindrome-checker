@@ -6,7 +6,7 @@ const clear = document.getElementById("clear-btn");
 check.addEventListener("click", palindrome);
 
 function palindrome() {
-  if (textInput.value === ""){
+  if (textInput.value == ""){
     alert("Please input a value");
     result.innerHTML = "";
     return;
@@ -22,6 +22,6 @@ function palindrome() {
   if (isPalindrome) {
     result.innerHTML = textInput.value + " is a palindrome";
   } else { result.innerHTML = textInput.value + " is not a palindrome";}
-}
+};
 
 clear.addEventListener("click", () => result.innerText = ""; textInput.value = ""; );
