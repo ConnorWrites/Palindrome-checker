@@ -5,7 +5,7 @@ let clear = document.getElementById("clear-btn");
 
 checkBtn.addEventListener('click', palindrome);
 
-textInput.addEventListener("keypress", function(event) {
+textInput.addEventListener('keypress', (event) => {
   if (event.key === "Enter") {
     event.preventDefault();
     palindrome();
