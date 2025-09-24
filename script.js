@@ -20,8 +20,8 @@ function palindrome() {
     }
   }
   if (isPalindrome) {
-    result.innerHTML = textInput.value + " is a palindrome";
-  } else { result.innerHTML = textInput.value + " is not a palindrome";}
-}
+    result.innerHTML = textInput.value + " is a palindrome!";
+  } else { result.innerHTML = textInput.value + " is not a palindrome.";}
+};
 
 clear.addEventListener("click", () => result.innerText = ""; textInput.value = ""; );
