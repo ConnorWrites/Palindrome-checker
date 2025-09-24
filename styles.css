@@ -5,6 +5,6 @@ h2 {text-align: center; font-size: 2rem; color:#fcdfd7;margin-top: -20px; paddin
 h3 {text-align: center; font-size: 1.7rem; color:#fcdfd7; padding: 5px; margin:20px; margin-top: 30px; padding-bottom:30px; margin-bottom: 50px; }
 p {font-size: 1.2rem; color:#ffae00; text-align:center; margin-top:-25px; }
 .field {display: block; margin-left:auto; margin-right:auto; text-align:center; padding: 10px; border:none; }
-.textbox { font-size: 2rem; font-family: copperplate; width: 40%; margin-right: 15px; margin-left: 15px;}
+.textbox { font-size: 2rem; font-family: copperplate; width: 30%; margin-right: 15px; margin-left: 15px;}
 button {font-size: 2rem; background-color: #ffae00; color:#007fff; font-family: copperplate; border-radius: 8px; width: 25%; margin-left: 15px; margin-right: 15px; }
 #result {font-size: 1.5rem;margin-top: 20px; margin-bottom: 5px;}
