@@ -1,6 +1,6 @@
-const textInput = document.getElementById("text-input");
-const checkBtn = document.getElementById("check-btn");
-const result = document.getElementById("result");
+let textInput = document.getElementById("text-input");
+let checkBtn = document.getElementById("check-btn");
+let result = document.getElementById("result");
 const clear = document.getElementById("clear-btn");
 
 checkBtn.addEventListener('click', palindrome);
