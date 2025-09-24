@@ -24,4 +24,4 @@ function palindrome() {
   } else { result.innerHTML = textInput.value + " is not a palindrome";}
 }
 
-clear.addEventListener("click", () => result.innerText = ""; textInput.value = ""; );
+clear.addEventListener('click', () => result.innerText = ""; textInput.value = ""; );
