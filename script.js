@@ -1,9 +1,9 @@
-let textInput = document.getElementById("text-input");
-let checkBtn = document.getElementById("check-btn");
-let result = document.getElementById("result");
-let clearBtn = document.getElementById("clear-btn");
+const textInput = document.getElementById("text-input");
+const check = document.getElementById("check-btn");
+const result = document.getElementById("result");
+const clear = document.getElementById("clear-btn");
 
-checkBtn.addEventListener("click", palindrome);
+check.addEventListener("click", palindrome);
 
 function palindrome() {
   if (textInput.value === ""){
@@ -24,4 +24,4 @@ function palindrome() {
   } else { result.innerHTML = textInput.value + " is not a palindrome";}
 }
 
-clearBtn.addEventListener("click", () => result.innerText = ""; textInput.value = ""; );
+clear.addEventListener("click", () => result.innerText = ""; textInput.value = ""; );
