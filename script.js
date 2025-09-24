@@ -1,12 +1,11 @@
 let textInput = document.getElementById("text-input");
 let checkBtn = document.getElementById("check-btn");
 let result = document.getElementById("result");
-let clear = document.getElementById("clear-btn");
 
 checkBtn.addEventListener('click', palindrome);
 
 function palindrome() {
-  if (textInput.value === ""){
+  if (textInput.value == ""){
     alert("Please input a value");
     result.innerHTML = "";
     return;
@@ -20,8 +19,7 @@ function palindrome() {
     }
   }
   if (isPalindrome) {
-    result.innerHTML = textInput.value + " is a palindrome!";
-  } else { result.innerHTML = textInput.value + " is not a palindrome.";}
+    result.innerHTML = textInput.value + " is a palindrome";
+  } else { result.innerHTML = textInput.value + " is not a palindrome";}
 }
 
-clear.addEventListener("click", () => result.innerText = ""; textInput.value = ""; );
